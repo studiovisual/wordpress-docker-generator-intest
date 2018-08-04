@@ -22,7 +22,7 @@ if [ $# -lt 4 ]; then
 	echo ' - raíz do apache à partir de /var/html/www (opcional)'
 	echo
 	echo "Exemplo de comando completo: ${0##*/} projeto-teste test.dev base-teste root 5.6 public"
-	echo 'Repositório do projeto: https://github.com/VictorHugoBatista/wordpress-docker-generator'
+	echo 'Repositório do projeto: https://github.com/studiovisual/wordpress-docker-generator-intest'
 	exit 0
 fi
 
@@ -112,4 +112,3 @@ chmod -R 777 .
 docker-compose up -d
 
 exit 0
-

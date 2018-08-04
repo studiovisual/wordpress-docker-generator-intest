@@ -56,4 +56,3 @@ else
 	sudo chmod +x $script_file
 	echo "Comando $script_name instalado com sucesso!"
 fi
-
