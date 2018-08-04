@@ -24,7 +24,6 @@ Gera automaticamente a estrutura para a criação de ambientes web PHP, Apache e
     * Título do projeto, define o título do diretório raíz e o nome dos containeres;
     * Virtualhost apontando para o ambiente criado;
     * Nome do banco MySQL gerado automaticamente;
-    * Senha do usuário root do MySQL.
  * Parâmetros opcionais:
     * Versão do PHP utilizada no ambiente. Padrão: **latest** (ver https://hub.docker.com/r/webgriffe/php-apache-base/tags/);
     * Raíz do Apache: Diretório à partir de **/var/html/www** (diretório **public** na raíz da estrutura de diretórios criada).

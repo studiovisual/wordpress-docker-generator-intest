@@ -10,7 +10,7 @@ services:
       - "3306"
     environment:
       - MYSQL_DATABASE=BANCO
-      - MYSQL_ROOT_PASSWORD=SENHA-ROOT
+      - MYSQL_ROOT_PASSWORD=intest
 
   NOME-DO-PROJETO_web:
     image: webgriffe/php-apache-base:PHP-VERSION
