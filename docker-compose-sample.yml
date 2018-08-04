@@ -24,3 +24,8 @@ services:
     environment:
       - VIRTUAL_HOST=VIRTUAL-HOST
       - APACHE_DOC_ROOT=/var/www/html
+
+networks:
+  default:
+    external:
+      name: webproxy
