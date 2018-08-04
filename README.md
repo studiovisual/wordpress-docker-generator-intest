@@ -26,7 +26,6 @@ Gera automaticamente a estrutura para a criação de ambientes web PHP, Apache e
     * Nome do banco MySQL gerado automaticamente;
  * Parâmetros opcionais:
     * Versão do PHP utilizada no ambiente. Padrão: **latest** (ver https://hub.docker.com/r/webgriffe/php-apache-base/tags/);
-    * Raíz do Apache: Diretório à partir de **/var/html/www** (diretório **public** na raíz da estrutura de diretórios criada).
  * Exemplo:
     * **wp-gen-env projeto-teste test.dev base-teste root 5.6 public**
  * Ao executar o comando exbido acima, a seguinte estrutura será criada à partir do seu diretório atual (**você ainda pode prosseguir ou cancelar antes que a estrutura seja gerada**):

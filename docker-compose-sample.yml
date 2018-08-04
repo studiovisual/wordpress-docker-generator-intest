@@ -23,4 +23,4 @@ services:
       - ./public/:/var/www/html
     environment:
       - VIRTUAL_HOST=VIRTUAL-HOST
-      - APACHE_DOC_ROOT=/var/www/html/APACHE-ROOT
+      - APACHE_DOC_ROOT=/var/www/html
