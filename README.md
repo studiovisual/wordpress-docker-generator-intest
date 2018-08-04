@@ -27,7 +27,7 @@ Gera automaticamente a estrutura para a criação de ambientes web PHP, Apache e
  * Parâmetros opcionais:
     * Versão do PHP utilizada no ambiente. Padrão: **latest** (ver https://hub.docker.com/r/webgriffe/php-apache-base/tags/);
  * Exemplo:
-    * **wp-gen-env projeto-teste test.dev base-teste root 5.6 public**
+    * **wp-gen-env projeto-teste test.dev base-teste 5.6**
  * Ao executar o comando exbido acima, a seguinte estrutura será criada à partir do seu diretório atual (**você ainda pode prosseguir ou cancelar antes que a estrutura seja gerada**):
   ```
   - projeto-teste

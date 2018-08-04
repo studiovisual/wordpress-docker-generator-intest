@@ -19,7 +19,7 @@ if [ $# -lt 3 ]; then
 	echo ' - nome do banco'
     echo ' - versão do php (opcional)'
 	echo
-	echo "Exemplo de comando completo: ${0##*/} projeto-teste test.dev base-teste root 5.6 public"
+	echo "Exemplo de comando completo: ${0##*/} projeto-teste test.dev base-teste 5.6"
 	echo 'Repositório do projeto: https://github.com/studiovisual/wordpress-docker-generator-intest'
 	exit 0
 fi
