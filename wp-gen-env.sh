@@ -1,7 +1,12 @@
 #!/bin/bash
 
+RED="\e[91m"
+GREEN="\e[92m"
+BLUE="\e[94m"
+RESET="\e[0m"
+
 if [ $# -lt 3 ]; then
-    echo
+    echo -e "$BLUE"
     echo 'Y8b Y8b Y888P                       888 888 88e'
     echo ' Y8b Y8b Y8P   e88 88e  888,8,  e88 888 888 888D 888,8,  ,e e,   dP"Y  dP"Y'
     echo '  Y8b Y8b Y   d888 888b 888 "  d888 888 888 88"  888 "  d88 88b C88b  C88b'
@@ -12,9 +17,11 @@ if [ $# -lt 3 ]; then
     echo '|  _  ||  _  |  __||    <|  -__|   _|______|  _  |  -__|     |  -__|   _|  _  ||   _|  _  |   _|'
     echo '|_____||_____|____||__|__|_____|__|        |___  |_____|__|__|_____|__| |___._||____|_____|__|'
     echo '                                           |_____|'
+    echo -e "${RESET}${RED}"
     echo ' _   _     _____  ____  __  _____      ____  _      __    _      ___   ___'
     echo '| | | |\ |  | |  | |_  ( (`  | |      | |_  | |    / /\  \ \  / / / \ | |_)'
     echo '|_| |_| \|  |_|  |_|__ _)_)  |_|      |_|   |_|__ /_/--\  \_\/  \_\_/ |_| \'
+    echo -e "$RESET"
     echo
     echo 'Parâmetros esperados:'
     echo ' - título do projeto'
